@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="static/js/jquery-3.2.1.min.js"></script>
+    <title>主页</title>
+</head>
+<body>
+<div id="login">
+    <label for="id">id</label>
+    <input id="id"/>
+    <br/>
+    <label for="password">password</label>
+    <input id="password"/>
+    <br/>
+    <button id="btn-login" onclick="login()">login</button>
+</div>
+<script>
+function login() {
+    var id = $("#id").val();
+    var password = $("#password").val();
+
+    $.ajax({
+        type: 'POST',
+        url: "index.php/index/user/login",
+        data: {
+            'id':id,
+            'password':password
+
+        },
+        success: function (data) {
+            alert(data.type+"0000"+data.data);
+        },
+        error: function (e) {
+            alert('error')
+        }
+    });
+}
+</script>
+</body>
+</html>
