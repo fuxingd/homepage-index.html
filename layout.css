@@ -1,4 +1,46 @@
-.all
+.inline1
 {
-	background:100%
+	display:inline-block;
+	font-size:80px;
+}
+.inline1 div
+{
+	height:0px;
+	margin:23px;
+}
+.nav button
+{
+	border:0px;
+	float:left;
+	width:80px;
+	height:40px;
+	margin:50px 0px 50px 0px;
+	background-color:#FFD700;
+}
+#user
+{
+	float:right;
+	}
+.footer div
+{
+	display:inline-block;
+	margin:0px 150px 0px 150px;
+}
+.img
+{
+	margin-top:110px;
+}
+.photo div
+{
+	display:inline-block;
+	margin-left:5px;
+}
+.imgs
+{
+	margin-left:180px;
+}
+.login
+{
+	background-color:#4876FF;
+	color:#FCFCFC;
 }
