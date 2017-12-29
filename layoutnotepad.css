@@ -30,26 +30,37 @@
 	display:inline-block;
 	margin:0px 100px 0px 150px;
 }
-.img
-{
-	margin-left:100px;
-	text-align:center;
-}
-.photo div
-{
-	display:inline-block;
-	margin-left:5px;
-}
-.photo
-{
-	text-align:center;
-}
-.imgs
-{
-	margin-left:180px;
-}
 .login
 {
 	background-color:#4876FF;
 	color:#FCFCFC;
+}
+.publish
+{
+	width:700px;
+	height:100px;
+	margin-left:300px;
+	line-height:20px;
+	text-indent:20px;
+	
+}
+.publishbut
+{
+	margin-left:950px;
+	background-color:#436EEE;
+	color:white;
+	width:50px;
+	height:25px;
+}
+.content1
+{
+	margin-left:200px;
+}
+.content2
+{
+	margin-left:20px;
+}
+.content3
+{
+	margin-left:20px;
 }
