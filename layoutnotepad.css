@@ -2,6 +2,7 @@
 {
 	display:inline-block;
 	font-size:80px;
+	height:140px;
 }
 .inline1 a
 {
@@ -15,11 +16,23 @@
 .nav button
 {
 	border:0px;
-	/*float:left;*/
-	width:80px;
-	height:40px;
-	margin:50px 0px 50px 0px;
+	width:100px;
+	height:50px;
+	margin:10px 50px 150px 130px;
 	background-color:#FFD700;
+	font-size:20px;
+	
+}
+.nav a 
+{
+	text-decoration: none;
+
+}
+
+
+.nav
+{
+	height:70px
 }
 #user
 {
@@ -28,7 +41,7 @@
 .footer div
 {
 	display:inline-block;
-	margin:0px 100px 0px 150px;
+	margin:0px 50px 0px 180px;
 }
 .login
 {
@@ -52,7 +65,7 @@
 	width:50px;
 	height:25px;
 }
-.content1
+/*.content1
 {
 	margin-left:200px;
 }
@@ -63,4 +76,70 @@
 .content3
 {
 	margin-left:20px;
+}*/
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+background: #fff;
+font-family: "Helvetica Neue", sans-serif;
+margin: 50px;
+}
+#timeline{
+margin-left: 10%;
+border-left: 10px solid #bce1fa;
+}
+#timeline li{
+position: relative;
+list-style: none;
+display: block;
+width: 100%;
+clear: both;
+}
+#timeline li::before{
+content: '';
+display: block;
+width: 30px;
+height: 30px;
+border: 5px solid #bce1fa;
+border-radius: 50%;
+background: #3498DB;
+position: absolute;
+left: -25px;
+top: 0;
+/*box-sizing: border-box;*/
+}
+#timeline li time{
+position: absolute;
+left: -30%;
+top: 8px;
+width: 25%;
+font-size: 21px;
+color: #AAA;
+text-align: right;
+}
+.timeline-content{
+position: relative;
+margin: 0 0 20px 5%;
+background: #57b4f6;
+color: #fff;
+border-radius: 4px;
+padding: 30px;
+}
+.timeline-content h1{
+font-size: 32px;
+margin-bottom: 20px;
+}
+.timeline-content::after{
+content:'';
+width: 0;
+height: 0;
+border-width: 10px;
+border-style: solid;
+border-color: transparent #57b4f6 transparent transparent;
+position: absolute;
+left: -20px;
+top: 12px;
 }

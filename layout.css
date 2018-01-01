@@ -2,6 +2,7 @@
 {
 	display:inline-block;
 	font-size:80px;
+	height:140px;
 }
 .inline1 a
 {
@@ -15,11 +16,23 @@
 .nav button
 {
 	border:0px;
-	/*float:left;*/
-	width:80px;
-	height:40px;
-	margin:50px 0px 50px 0px;
+	width:100px;
+	height:50px;
+	margin:10px 50px 150px 130px;
 	background-color:#FFD700;
+	font-size:20px;
+	
+}
+.nav a 
+{
+	text-decoration: none;
+
+}
+
+
+.nav
+{
+	height:70px
 }
 #user
 {
@@ -28,11 +41,12 @@
 .footer div
 {
 	display:inline-block;
-	margin:0px 100px 0px 150px;
+	margin:0px 50px 0px 180px;
 }
 .img
 {
 	margin-left:100px;
+	margin-top:20px;
 	text-align:center;
 }
 .photo div
@@ -43,10 +57,6 @@
 .photo
 {
 	text-align:center;
-}
-.imgs
-{
-	margin-left:180px;
 }
 .login
 {
